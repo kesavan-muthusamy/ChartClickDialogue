@@ -1,6 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
+import { ChartAllModule } from '@syncfusion/ej2-angular-charts';
+import { DialogAllModule } from '@syncfusion/ej2-angular-popups';
 import { AppComponent } from './app.component';
 
 @NgModule({
@@ -8,7 +9,7 @@ import { AppComponent } from './app.component';
     AppComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule, ChartAllModule, DialogAllModule
   ],
   providers: [],
   bootstrap: [AppComponent]
